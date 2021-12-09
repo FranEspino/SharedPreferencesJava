@@ -39,7 +39,7 @@ public class EditarPerfilActivity extends AppCompatActivity {
         btn_guardar.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                dataProccessor.setStr("et_correo",et_correo.getText().toString());
+                dataProccessor.setStr("correo",et_correo.getText().toString());
                 dataProccessor.setStr("nombre",et_nombre.getText().toString());
                 dataProccessor.setStr("apellidos",et_apellidos.getText().toString());
                 dataProccessor.setStr("edad",et_edad.getText().toString());
